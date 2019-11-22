@@ -4,7 +4,7 @@
   "description": "React Express PostgreSQL project",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "server": "nodemon server"
   },
   "repository": {
     "type": "git",
@@ -23,14 +23,12 @@
   "homepage": "https://github.com/artem-valkov/weather_app-fs#readme",
   "devDependencies": {
     "concurrently": "^5.0.0",
-    "cookie-parser": "^1.4.4",
-    "express": "^4.17.1",
-    "nodemon": "^2.0.0",
-    "pg": "^7.14.0"
+    "nodemon": "^2.0.0"
   },
   "dependencies": {
+    "cookie-parser": "^1.4.4",
     "express": "^4.17.1",
-    "nodemon": "^2.0.0",
+    "body-parser": "^1.19.0",
     "pg": "^7.14.0"
   }
 }
