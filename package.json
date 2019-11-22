@@ -1,0 +1,36 @@
+{
+  "name": "weather_app-fs",
+  "version": "0.0.1",
+  "description": "React Express PostgreSQL project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/artem-valkov/weather_app-fs.git"
+  },
+  "keywords": [
+    "react",
+    "express",
+    "postgre"
+  ],
+  "author": "Artem Valkov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/artem-valkov/weather_app-fs/issues"
+  },
+  "homepage": "https://github.com/artem-valkov/weather_app-fs#readme",
+  "devDependencies": {
+    "concurrently": "^5.0.0",
+    "cookie-parser": "^1.4.4",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.0",
+    "pg": "^7.14.0"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.0",
+    "pg": "^7.14.0"
+  }
+}
